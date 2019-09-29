@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54e07604-14a0-47cc-8fe5-91a7727f52b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/Test-feature-B.1568683242418.pdom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/1/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/13/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/51/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/65/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/b0/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/c1/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/f0/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Test-feature-B/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-Test-feature-B.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.debug.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.views.log.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/AGVControl.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/AGVControl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/Interpolation.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/Interpolation.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/Interpolation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/Interpolation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/Movement.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/Movement.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/Movement.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/Movement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/motion_ctrl.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/motion_ctrl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/App/motion_ctrl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/App/motion_ctrl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/CAN/can.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/CAN/can.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/MPI204A/MPI204A.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/MPI204A/MPI204A.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/Odom_Calib/Odom_Calib.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/Odom_Calib/Odom_Calib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/Odom_Calib/Odom_Calib.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/Odom_Calib/Odom_Calib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/PGV150/PGV150.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/PGV150/PGV150.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/PGV150/PGV150.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/PGV150/PGV150.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/TCP/1200.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/TCP/1200.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/TCP/protocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/TCP/protocol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/include/user_function.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/include/user_function.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/main" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-NEW/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-NEW/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-OLD/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-OLD/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-OLD/Odom_Calib/Odom_Calib.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-OLD/Odom_Calib/Odom_Calib.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-OLD/main" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-OLD/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-feature-C-OLD/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Test-feature-C-OLD/main.c" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test-feature-B-xie/main.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test-feature-B-xie/makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test-feature-C-OLD/main.c" />
+        <option value="$PROJECT_DIR$/Test-feature-C-OLD/Odom_Calib/Odom_Calib.c" />
+        <option value="$PROJECT_DIR$/Test-feature-B-xie/makefile" />
+        <option value="$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.c" />
+        <option value="$PROJECT_DIR$/Test-feature-C-NEW/App/motion_ctrl.c" />
+        <option value="$PROJECT_DIR$/Test-feature-C-NEW/App/Interpolation.c" />
+        <option value="$PROJECT_DIR$/Test-feature-C-NEW/App/Movement.c" />
+        <option value="$PROJECT_DIR$/Test-feature-C-NEW/App/AGVControl.c" />
+        <option value="$PROJECT_DIR$/Test-feature-B-923/App/motion_ctrl.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/CLion-2.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="248" />
+    <option name="y" value="129" />
+    <option name="width" value="735" />
+    <option name="height" value="604" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CLion-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLion-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test-feature-B-923" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/Test-feature-B-923" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54e07604-14a0-47cc-8fe5-91a7727f52b8" name="Default Changelist" comment="" />
+      <created>1568705621443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568705621443</updated>
+      <workItem from="1568705627601" duration="342000" />
+      <workItem from="1568706824670" duration="8577000" />
+      <workItem from="1568879105788" duration="1505000" />
+      <workItem from="1568892138133" duration="3321000" />
+      <workItem from="1569224632209" duration="1281000" />
+      <workItem from="1569237599617" duration="1141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16167000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="-4" width="1305" height="772" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29785544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32962668" />
+      <window_info anchor="right" id="make" order="4" weight="0.32962668" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32962668" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-NEW/MPI204A/MPI204A.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-NEW/CAN/can.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-NEW/PGV150/PGV150.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-NEW/AGV/agv.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="110" column="7" selection-start-line="110" selection-start-column="7" selection-end-line="113" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-NEW/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="156" column="11" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-OLD/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="387" column="28" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-C-OLD/main.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-B-xie/main.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test-feature-B-xie/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

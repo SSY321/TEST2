@@ -1,0 +1,379 @@
+19:42:43 **** Incremental Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:297:69: error: 'Virtual_AGV_Current_Coor_InWorld' undeclared (first use in this function)
+                 else if( fabs(AGV_Current_Coor_InWorld.angle_coor - Virtual_AGV_Current_Coor_InWorld.angle_coor) < 15 )
+                                                                     ^
+./App/AGVControl.c:297:69: note: each undeclared identifier is reported only once for each function it appears in
+./App/AGVControl.c:340:13: error: expected '}' before 'else'
+             else if (Motionstyle == ACTION_MODE_TRUNRIGHT)
+             ^
+./App/AGVControl.c: At top level:
+./App/AGVControl.c:382:17: error: expected identifier or '(' before 'if'
+                 if (wControl > 0.4)
+                 ^
+./App/AGVControl.c:393:13: error: expected identifier or '(' before '}' token
+             }
+             ^
+./App/AGVControl.c:394:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:396:5: error: expected identifier or '(' before '}' token
+     }
+     ^
+./App/AGVControl.c:397:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:427:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [main] 错误 1
+19:45:25 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:297:69: error: 'Virtual_AGV_Current_Coor_InWorld' undeclared (first use in this function)
+                 else if( fabs(AGV_Current_Coor_InWorld.angle_coor - Virtual_AGV_Current_Coor_InWorld.angle_coor) < 15 )
+                                                                     ^
+./App/AGVControl.c:297:69: note: each undeclared identifier is reported only once for each function it appears in
+./App/AGVControl.c: At top level:
+./App/AGVControl.c:383:17: error: expected identifier or '(' before 'if'
+                 if (wControl > 0.4)
+                 ^
+./App/AGVControl.c:394:13: error: expected identifier or '(' before '}' token
+             }
+             ^
+./App/AGVControl.c:395:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:397:5: error: expected identifier or '(' before '}' token
+     }
+     ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:428:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [main] 错误 1
+19:46:55 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:297:69: error: 'Virtual_AGV_Current_Coor_InWorld' undeclared (first use in this function)
+                 else if( fabs(AGV_Current_Coor_InWorld.angle_coor - Virtual_AGV_Current_Coor_InWorld.angle_coor) < 15 )
+                                                                     ^
+./App/AGVControl.c:297:69: note: each undeclared identifier is reported only once for each function it appears in
+./App/AGVControl.c: At top level:
+./App/AGVControl.c:395:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:397:5: error: expected identifier or '(' before '}' token
+     }
+     ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+19:47:02 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:297:69: error: 'Virtual_AGV_Current_Coor_InWorld' undeclared (first use in this function)
+                 else if( fabs(AGV_Current_Coor_InWorld.angle_coor - Virtual_AGV_Current_Coor_InWorld.angle_coor) < 15 )
+                                                                     ^
+./App/AGVControl.c:297:69: note: each undeclared identifier is reported only once for each function it appears in
+./App/AGVControl.c: At top level:
+./App/AGVControl.c:395:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+19:49:09 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:297:69: error: 'Virtual_AGV_Current_Coor_InWorld' undeclared (first use in this function)
+                 else if( fabs(AGV_Current_Coor_InWorld.angle_coor - Virtual_AGV_Current_Coor_InWorld.angle_coor) < 15 )
+                                                                     ^
+./App/AGVControl.c:297:69: note: each undeclared identifier is reported only once for each function it appears in
+./App/AGVControl.c: At top level:
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+08:36:39 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:297:69: error: 'Virtual_AGV_Current_Coor_InWorld' undeclared (first use in this function)
+                 else if( fabs(AGV_Current_Coor_InWorld.angle_coor - Virtual_AGV_Current_Coor_InWorld.angle_coor) < 15 )
+                                                                     ^
+./App/AGVControl.c:297:69: note: each undeclared identifier is reported only once for each function it appears in
+./App/AGVControl.c: At top level:
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+08:38:03 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+09:11:52 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c:397:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+09:12:24 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c:395:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+./App/AGVControl.c:397:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+09:12:32 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c:394:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+./App/AGVControl.c:395:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+./App/AGVControl.c:397:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+09:12:38 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c:397:9: error: expected identifier or '(' before '}' token
+         }
+         ^
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+09:12:56 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c:398:5: error: expected identifier or '(' before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+make: *** [main] 错误 1
+09:13:20 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:341:13: error: expected declaration specifiers before 'else'
+             else if (Motionstyle == ACTION_MODE_TRUNRIGHT)
+             ^
+./App/AGVControl.c:383:17: error: expected declaration specifiers before 'if'
+                 if (wControl > 0.4)
+                 ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:13:29 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:341:13: error: expected declaration specifiers before 'else'
+             else if (Motionstyle == ACTION_MODE_TRUNRIGHT)
+             ^
+./App/AGVControl.c:383:17: error: expected declaration specifiers before 'if'
+                 if (wControl > 0.4)
+                 ^
+./App/AGVControl.c:394:17: error: expected declaration specifiers before '}' token
+                 }
+                 ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:13:32 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:341:13: error: expected declaration specifiers before 'else'
+             else if (Motionstyle == ACTION_MODE_TRUNRIGHT)
+             ^
+./App/AGVControl.c:383:17: error: expected declaration specifiers before 'if'
+                 if (wControl > 0.4)
+                 ^
+./App/AGVControl.c:394:17: error: expected declaration specifiers before '}' token
+                 }
+                 ^
+./App/AGVControl.c:395:17: error: expected declaration specifiers before '}' token
+                 }
+                 ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:15:13 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:341:13: error: expected declaration specifiers before 'else'
+             else if (Motionstyle == ACTION_MODE_TRUNRIGHT)
+             ^
+./App/AGVControl.c:383:17: error: expected declaration specifiers before 'if'
+                 if (wControl > 0.4)
+                 ^
+./App/AGVControl.c:394:17: error: expected declaration specifiers before '}' token
+                 }
+                 ^
+./App/AGVControl.c:395:17: error: expected declaration specifiers before '}' token
+                 }
+                 ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:15:56 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:395:17: error: expected declaration specifiers before '}' token
+                 }
+                 ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:16:15 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:16:47 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+./App/AGVControl.c:398:5: error: expected declaration specifiers before 'else'
+     else if (nEvent != NO_EVENT)
+     ^
+./App/AGVControl.c:424:5: error: expected '{' at end of input
+     }
+     ^
+make: *** [main] 错误 1
+09:19:34 **** Auto Build of configuration Default for project Test-feature-C-NEW ****
+make 
+arm-poky-linux-gnueabi-gcc  -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi -I"/home/siasunhebo/CLion-2/Test-feature-C-NEW" -I./sensorTest/ -I./TCP/ -I./App -I./CAN/ -I./Math/ -I./Odom_Calib/ -I./MPI204A -I./Timer -I./UART -I./PGV150 -I./AGV -I./Tools -I./include main.c ./CAN/can.c ./MPI204A/MPI204A.c ./Timer/Timer.c ./PGV150/PGV150.c ./UART/UART.c ./Odom_Calib/Odom_Calib.c ./Math/Trigonometric.c ./App/Interpolation.c ./App/motion_ctrl.c ./App/AGVControl.c ./App/Movement.c ./TCP/TCP.c ./TCP/1200.c ./AGV/agv.c ./Tools/Tools.c -o main -g -lpthread -lrt -lm
+./App/AGVControl.c: In function 'AGV_Running':
+./App/AGVControl.c:209:2: error: expected declaration specifiers before 'printf'
+  printf("nEvent=%d",nEvent);
+  ^
+./App/AGVControl.c:210:2: error: expected declaration specifiers before 'printf'
+  printf("OutOfTrack=%d",OutOfTrack);
+  ^
+./App/AGVControl.c:211:5: error: expected declaration specifiers before 'if'
+     if (NO_EVENT == nEvent)
+     ^
+make: *** [main] 错误 1
