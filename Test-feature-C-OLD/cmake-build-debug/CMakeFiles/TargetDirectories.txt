@@ -1,3 +1,0 @@
-/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/CMakeFiles/IMUtest.dir
-/home/siasunhebo/CLionProjects/Test-feature-B/cmake-build-debug/CMakeFiles/edit_cache.dir
