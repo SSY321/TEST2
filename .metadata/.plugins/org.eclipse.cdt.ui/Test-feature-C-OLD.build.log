@@ -1,6 +1,0 @@
-11:41:47 **** Incremental Build of configuration Default for project Test-feature-C-OLD ****
-make all 
-make: *** 没有规则可以创建目标“all”。 停止。
-
-11:41:47 Build Finished (took 85ms)
-
